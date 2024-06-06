@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* First row adjusts based on content, second row flexible */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.auto-height {
+  background-color: #f0f0f0; /* Optional, for visibility */
+}
+
+.flexible-height {
+  overflow-y: auto;
+  background-color: rgb(247, 255, 192); /* Optional, for visibility */
+}

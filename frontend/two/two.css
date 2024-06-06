@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.fixed-height {
+  height: 100px; /* Hard coded value */
+  background-color: #f0f0f0; /* Optional, for visibility */
+}
+
+.flexible-height {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: rgb(247, 255, 192); /* Optional, for visibility */
+}
+
+.box1 {
+  padding: 0.5rem 3rem;
+}
+
+.box2 {
+  padding: 5rem;
+  background-color: aqua;
+  margin-bottom: 1rem;
+}
