@@ -40,3 +40,5 @@ const newPermissions = news.permissions;
 const permissionsEqual = arePermissionsEqual(oldPermissions, newPermissions);
 
 console.log("Permissions are equal:", permissionsEqual);
+
+
